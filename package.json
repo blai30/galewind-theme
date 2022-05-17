@@ -1,0 +1,21 @@
+{
+  "name": "galewind-theme",
+  "displayName": "Galewind Theme",
+  "description": "Color theme by the breeze",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Galewind Dark Rose",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Galewind Dark Rose-color-theme.json"
+      }
+    ]
+  }
+}
