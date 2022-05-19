@@ -1,10 +1,14 @@
 {
   "name": "Galewind Dark Rose",
   "colors": {
-    "editor.background": "#263238",
-    "editor.foreground": "#eeffff",
+    "editor.background": "#18181b",
+    "editor.foreground": "#f4f4f5",
     "activityBarBadge.background": "#007acc",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "sideBarTitle.foreground": "#bbbbbb",
+    "editor.selectionBackground": "#fb718550",
+    "editorBracketHighlight.foreground1": "#fef08a",
+    "editorBracketHighlight.foreground2": "#f5d0fe",
+    "editorBracketHighlight.foreground3": "#a5f3fc",
   },
   "tokenColors": [
     {
@@ -12,7 +16,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#546E7A"
+        "foreground": "#d1d5db65"
       }
     },
     {
@@ -40,7 +44,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#fb7185"
       }
     },
     {
@@ -48,19 +52,35 @@
       "scope": [
         "keyword.control",
         "constant.other.color",
-        "punctuation",
         "meta.tag",
-        "punctuation.definition.tag",
-        "punctuation.separator.inheritance.php",
-        "punctuation.definition.tag.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
-        "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#f3f4f6"
+      }
+    },
+    {
+      "name": "Punctuation String",
+      "scope": [
+        "punctuation",
+        "punctuation.separator.inheritance.php",
+        "punctuation.section.embedded",
+      ],
+      "settings": {
+        "foreground": "#fef08a"
+      }
+    },
+    {
+      "name": "Punctuation Other",
+      "scope": [
+        "punctuation.definition.tag",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+      ],
+      "settings": {
+        "foreground": "#d1d5db"
       }
     },
     {
@@ -71,7 +91,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#f472b6"
       }
     },
     {
@@ -84,7 +104,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#d9f99d"
       }
     },
     {
@@ -102,25 +122,42 @@
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Number, Constant, Function Argument",
       "scope": [
         "constant.numeric",
         "constant.language",
         "support.constant",
         "constant.character",
         "constant.escape",
-        "variable.parameter",
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#c4b5fd"
+      }
+    },
+    {
+      "name": "Tag Attribute, Embedded",
+      "scope": [
         "keyword.other.unit",
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "fontStyle": "italic",
+        "foreground": "#fca5a5"
       }
     },
     {
-      "name": "String, Symbols, Inherited Class, Markup Heading",
+      "name": "String",
       "scope": [
         "string",
+      ],
+      "settings": {
+        "foreground": "#fef08a"
+      }
+    },
+    {
+      "name": "Symbols, Inherited Class, Markup Heading",
+      "scope": [
         "constant.other.symbol",
         "constant.other.key",
         "entity.other.inherited-class",
@@ -129,7 +166,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -145,7 +182,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -210,7 +247,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#cbd5e1"
       }
     },
     {
