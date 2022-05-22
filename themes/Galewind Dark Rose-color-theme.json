@@ -50,14 +50,22 @@
     {
       "name": "Operator, Misc",
       "scope": [
-        "keyword.control",
         "constant.other.color",
         "meta.tag",
+      ],
+      "settings": {
+        "foreground": "#f3f4f6"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword.control",
         "keyword.other.template",
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#f3f4f6"
+        "foreground": "#d8b4fe"
       }
     },
     {
@@ -72,15 +80,25 @@
       }
     },
     {
+      "name": "Punctuation Operator",
+      "scope": [
+      ],
+      "settings": {
+        "foreground": "#ddd6fe"
+      }
+    },
+    {
       "name": "Punctuation Other",
       "scope": [
         "punctuation.definition.tag",
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
+        "punctuation.separator",
+        "punctuation.terminator",
       ],
       "settings": {
-        "foreground": "#d1d5db"
+        "foreground": "#ddd6fe"
       }
     },
     {
@@ -104,21 +122,21 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#d9f99d"
+        "foreground": "#bbf7d0"
       }
     },
     {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#bfdbfe"
       }
     },
     {
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#fda4af"
       }
     },
     {
@@ -143,7 +161,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#fca5a5"
+        "foreground": "#d8b4fe"
       }
     },
     {
@@ -189,7 +207,7 @@
       "name": "Entity Types",
       "scope": ["support.type"],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#fdba74"
       }
     },
     {
