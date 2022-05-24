@@ -15,6 +15,11 @@
         "label": "Galewind Dark Rose",
         "uiTheme": "vs-dark",
         "path": "./themes/Galewind Dark Rose-color-theme.json"
+      },
+      {
+        "label": "Galewind Dark Sky",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Galewind Dark Sky-color-theme.json"
       }
     ]
   }
