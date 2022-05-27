@@ -88,7 +88,7 @@
       "scope": ["keyword"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#FB7185"
+        "foreground": "#FDA4AF"
       }
     },
     {
@@ -317,7 +317,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#CBD5E1"
+        "foreground": "#A5F3FC"
       }
     },
     {
