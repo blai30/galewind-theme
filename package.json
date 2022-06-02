@@ -2,11 +2,12 @@
   "name": "galewind-theme",
   "displayName": "Galewind Theme",
   "description": "Color theme by the breeze",
+  "publisher": "blai30",
   "repository": {
     "type": "git",
     "url": "https://github.com/blai30/galewind-theme"
   },
-  "version": "0.0.1",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.67.0"
   },

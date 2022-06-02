@@ -85,7 +85,7 @@
     },
     {
       "name": "Keyword",
-      "scope": ["keyword"],
+      "scope": ["keyword.operator"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FDA4AF"
@@ -104,11 +104,20 @@
         "keyword.control",
         "keyword.other.template",
         "keyword.other.substitution",
-        "storage.type",
         "storage.modifier"
       ],
       "settings": {
         "foreground": "#FB7185"
+      }
+    },
+    {
+      "name": "Type",
+      "scope": [
+        "keyword.type",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#67E8F9"
       }
     },
     {
@@ -204,7 +213,7 @@
     },
     {
       "name": "Tag Attribute, Embedded",
-      "scope": ["keyword.other.unit", "keyword.other"],
+      "scope": ["keyword", "keyword.other.unit", "keyword.other"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#D8B4FE"
