@@ -42,12 +42,12 @@
     // "editorBracketHighlight.foreground1": "#FEF08A",
     // "editorBracketHighlight.foreground2": "#F5D0FE",
     // "editorBracketHighlight.foreground3": "#A5F3FC"
-    "editorBracketHighlight.foreground1": "#FCA5A5",
-    "editorBracketHighlight.foreground2": "#FDBA74",
-    "editorBracketHighlight.foreground3": "#FDE047",
-    "editorBracketHighlight.foreground4": "#86EFAC",
-    "editorBracketHighlight.foreground5": "#93C5FD",
-    "editorBracketHighlight.foreground6": "#D8B4FE"
+    "editorBracketHighlight.foreground1": "#93C5FD",
+    "editorBracketHighlight.foreground2": "#D8B4FE",
+    "editorBracketHighlight.foreground3": "#FCA5A5",
+    "editorBracketHighlight.foreground4": "#FDBA74",
+    "editorBracketHighlight.foreground5": "#FDE047",
+    "editorBracketHighlight.foreground6": "#86EFAC"
   },
   "tokenColors": [
     {
@@ -62,8 +62,11 @@
       "name": "Variables",
       "scope": [
         "variable",
+        "variable.other.definition",
+        "entity.name.variable.local",
         "string constant.other.placeholder",
-        "meta.block variable.other"
+        "meta.block variable.other",
+        "meta.method.body"
       ],
       "settings": {
         "foreground": "#FAFAFA"
@@ -112,11 +115,9 @@
     },
     {
       "name": "Type",
-      "scope": [
-        "keyword.type",
-        "storage.type"
-      ],
+      "scope": ["keyword.type", "storage.type"],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#67E8F9"
       }
     },
@@ -206,7 +207,7 @@
     },
     {
       "name": "Function Argument",
-      "scope": ["variable.parameter"],
+      "scope": ["variable.parameter", "source"],
       "settings": {
         "foreground": "#FDBA74"
       }
@@ -259,13 +260,6 @@
     },
     {
       "name": "Support",
-      "scope": ["entity.name"],
-      "settings": {
-        "foreground": "#86EFAC"
-      }
-    },
-    {
-      "name": "Support variable property",
       "scope": ["support.variable.property"],
       "settings": {
         "foreground": "#67E8F9"

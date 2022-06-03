@@ -62,8 +62,11 @@
       "name": "Variables",
       "scope": [
         "variable",
+        "variable.other.definition",
+        "entity.name.variable.local",
         "string constant.other.placeholder",
-        "meta.block variable.other"
+        "meta.block variable.other",
+        "meta.method.body"
       ],
       "settings": {
         "foreground": "#FAFAFA"
@@ -112,11 +115,9 @@
     },
     {
       "name": "Type",
-      "scope": [
-        "keyword.type",
-        "storage.type"
-      ],
+      "scope": ["keyword.type", "storage.type"],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#F9A8D4"
       }
     },
@@ -206,7 +207,7 @@
     },
     {
       "name": "Function Argument",
-      "scope": ["variable.parameter"],
+      "scope": ["variable.parameter", "source"],
       "settings": {
         "foreground": "#FDBA74"
       }
@@ -259,13 +260,6 @@
     },
     {
       "name": "Support",
-      "scope": ["entity.name"],
-      "settings": {
-        "foreground": "#86EFAC"
-      }
-    },
-    {
-      "name": "Support variable property",
       "scope": ["support.variable.property"],
       "settings": {
         "foreground": "#F9A8D4"
