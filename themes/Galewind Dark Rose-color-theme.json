@@ -110,6 +110,7 @@
         "storage.modifier"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#FB7185"
       }
     },
