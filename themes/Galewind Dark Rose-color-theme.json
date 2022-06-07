@@ -39,9 +39,6 @@
     "titleBar.activeBackground": "#27272A",
     "titleBar.inactiveBackground": "#27272A",
 
-    // "editorBracketHighlight.foreground1": "#FEF08A",
-    // "editorBracketHighlight.foreground2": "#F5D0FE",
-    // "editorBracketHighlight.foreground3": "#A5F3FC"
     "editorBracketHighlight.foreground1": "#93C5FD",
     "editorBracketHighlight.foreground2": "#D8B4FE",
     "editorBracketHighlight.foreground3": "#FCA5A5",
@@ -90,7 +87,7 @@
       "name": "Keyword",
       "scope": ["keyword.operator"],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#FDA4AF"
       }
     },
@@ -107,7 +104,8 @@
         "keyword.control",
         "keyword.other.template",
         "keyword.other.substitution",
-        "storage.modifier"
+        "storage.modifier",
+        "storage.type.function.arrow"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -208,7 +206,7 @@
     },
     {
       "name": "Function Argument",
-      "scope": ["variable.parameter", "source"],
+      "scope": ["variable.parameter", "entity.name.variable.parameter"],
       "settings": {
         "foreground": "#FDBA74"
       }
@@ -261,9 +259,9 @@
     },
     {
       "name": "Support",
-      "scope": ["support.variable.property"],
+      "scope": ["support.variable.property", "variable.other.object.property"],
       "settings": {
-        "foreground": "#67E8F9"
+        "foreground": "#FECDD3"
       }
     },
     {
