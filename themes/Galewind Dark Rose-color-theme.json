@@ -27,7 +27,7 @@
     "menu.background": "#27272A",
     "menu.foreground": "#D4D4D8",
     "menu.selectionBackground": "#3F3F46",
-    "menu.separatorBackground": "#71717A",
+    "menu.separatorBackground": "#52525B",
     "quickInput.background": "#27272A",
     "quickInputList.focusBackground": "#18181B",
     "quickInputTitle.background": "#252528",
@@ -269,7 +269,7 @@
     },
     {
       "name": "Support",
-      "scope": ["support.variable.property", "variable.other.object.property"],
+      "scope": ["support.variable.property"],
       "settings": {
         "foreground": "#FECDD3"
       }
@@ -304,7 +304,7 @@
       "scope": ["variable.language"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#FCD34D"
+        "foreground": "#FECDD3"
       }
     },
     {

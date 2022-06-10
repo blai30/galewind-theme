@@ -27,7 +27,7 @@
     "menu.background": "#27272A",
     "menu.foreground": "#D4D4D8",
     "menu.selectionBackground": "#3F3F46",
-    "menu.separatorBackground": "#71717A",
+    "menu.separatorBackground": "#52525B",
     "quickInput.background": "#27272A",
     "quickInputList.focusBackground": "#18181B",
     "quickInputTitle.background": "#252528",
@@ -304,7 +304,7 @@
       "scope": ["variable.language"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#FCD34D"
+        "foreground": "#BAE6FD"
       }
     },
     {
