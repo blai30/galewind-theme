@@ -1,7 +1,7 @@
 {
   "name": "Galewind Dark Sky",
   "colors": {
-    "activityBar.activeBackground": "#3F3F46",
+    "activityBar.activeBackground": "#18181B",
     "activityBar.activeBorder": "#27272A",
     "activityBar.activeFocusBorder": "#27272A",
     "activityBar.background": "#27272a",
@@ -216,7 +216,7 @@
     },
     {
       "name": "Function Argument",
-      "scope": ["variable.parameter", "source"],
+      "scope": ["variable.parameter", "entity.name.variable.parameter"],
       "settings": {
         "foreground": "#FDBA74"
       }
