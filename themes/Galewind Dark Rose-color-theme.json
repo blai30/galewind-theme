@@ -68,6 +68,7 @@
     {
       "name": "Variables",
       "scope": [
+        "source",
         "variable",
         "variable.other.definition",
         "entity.name.variable.local",
