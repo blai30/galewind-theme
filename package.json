@@ -1,8 +1,9 @@
 {
   "name": "galewind-theme",
   "displayName": "Galewind Theme",
-  "description": "Color theme by the breeze",
+  "description": "Dark color theme using colors from Tailwind CSS documentation.",
   "publisher": "blai30",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/blai30/galewind-theme"
