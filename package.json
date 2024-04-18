@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/blai30/galewind-theme"
   },
-  "version": "1.0.2",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.67.0"
   },
@@ -26,6 +26,16 @@
         "label": "Galewind Dark Sky",
         "uiTheme": "vs-dark",
         "path": "./themes/Galewind Dark Sky-color-theme.json"
+      },
+      {
+        "label": "Galewind Black Rose",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Galewind Black Rose-color-theme.json"
+      },
+      {
+        "label": "Galewind Black Sky",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Galewind Black Sky-color-theme.json"
       }
     ]
   }
