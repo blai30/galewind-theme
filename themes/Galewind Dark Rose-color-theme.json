@@ -254,18 +254,29 @@
     {
       "name": "Class",
       "scope": [
-        "entity.name.type",
+        "entity.name.type.class",
         "support.type",
         "support.class",
-        "support.other.namespace.use.php",
         "meta.use.php",
-        "support.other.namespace.php",
         "markup.changed.git_gutter",
         "support.type.sys-types"
       ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#67E8F9"
+      }
+    },
+    {
+      "name": "Namespace",
+      "scope": [
+        "entity.name.type.namespace",
+        "storage.modifier.import",
+        "support.other.namespace.php",
+        "support.other.namespace.use.php"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#FDE68A"
       }
     },
     {
