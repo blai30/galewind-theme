@@ -117,11 +117,18 @@
     {
       "name": "Keywords",
       "scope": [
+        "keyword",
         "keyword.control",
-        "keyword.other.template",
+        "keyword.other",
+        "keyword.other.directive",
         "keyword.other.substitution",
+        "keyword.other.template",
+        "keyword.other.unit",
+        "keyword.control.flow",
         "storage.modifier",
-        "storage.type.function.arrow"
+        "storage.modifier.public.cs",
+        "storage.modifier.private.cs",
+        "storage.type.function.arrow",
       ],
       "settings": {
         "fontStyle": "italic",
@@ -229,14 +236,6 @@
       "scope": ["variable.parameter", "entity.name.variable.parameter"],
       "settings": {
         "foreground": "#FDBA74"
-      }
-    },
-    {
-      "name": "Tag Attribute, Embedded",
-      "scope": ["keyword", "keyword.other.unit", "keyword.other"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#D8B4FE"
       }
     },
     {
@@ -379,7 +378,8 @@
       "name": "Inserted",
       "scope": ["markup.inserted"],
       "settings": {
-        "foreground": "#C3E88D"
+        "fontStyle": "bold",
+        "foreground": "#67E8F9"
       }
     },
     {
@@ -489,8 +489,8 @@
       "name": "Markup - Italic",
       "scope": ["markup.italic"],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#F07178"
+        "fontStyle": "bold",
+        "foreground": "#67E8F9"
       }
     },
     {
