@@ -12,6 +12,7 @@
     "dropdown.background": "#09090B",
     "editor.background": "#000000",
     "editor.foreground": "#F4F4F5",
+    "editor.lineHighlightBackground": "#18181B",
     "editor.selectionBackground": "#FB718550",
     "editor.wordHighlightStrongBackground": "#FB718550",
     "editorCursor.foreground": "#FECDD3",
@@ -20,6 +21,10 @@
     "editorLineNumber.activeForeground": "#D4D4D8",
     "editorLineNumber.foreground": "#71717A",
     "editorLink.activeForeground": "#FDA4AF",
+    "editorSuggestWidget.background": "#18181B",
+    "editorSuggestWidget.focusHighlightForeground": "#E4E4E7",
+    "editorSuggestWidget.foreground": "#E4E4E7",
+    "editorSuggestWidget.selectedBackground": "#9F1239",
     "focusBorder": "#BE123C",
     "input.background": "#09090B",
     "list.activeSelectionBackground": "#BE123C",
@@ -62,7 +67,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#D1D5DB65"
+        "foreground": "#737373"
       }
     },
     {
@@ -197,7 +202,11 @@
     },
     {
       "name": "Other Variable, String Link",
-      "scope": ["support.other.variable", "string.other.link"],
+      "scope": [
+        "support.other.variable",
+        "string.other.link",
+        "variable.other.object"
+      ],
       "settings": {
         "foreground": "#FDA4AF"
       }
@@ -249,6 +258,14 @@
       ],
       "settings": {
         "foreground": "#67E8F9"
+      }
+    },
+    {
+      "name": "Entity Type",
+      "scope": ["entity.name.type"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#C3E88D"
       }
     },
     {
