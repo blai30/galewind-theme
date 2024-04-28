@@ -115,7 +115,10 @@
         "keyword.control",
         "keyword.other.template",
         "keyword.other.substitution",
+        "keyword.control.flow",
         "storage.modifier",
+        "storage.modifier.public.cs",
+        "storage.modifier.private.cs",
         "storage.type.function.arrow"
       ],
       "settings": {
@@ -125,7 +128,7 @@
     },
     {
       "name": "Type",
-      "scope": ["keyword.type", "storage.type"],
+      "scope": ["keyword.type", "storage.type", "storage.type.namespace.cs"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#67E8F9"
@@ -224,7 +227,7 @@
     },
     {
       "name": "Tag Attribute, Embedded",
-      "scope": ["keyword", "keyword.other.unit", "keyword.other"],
+      "scope": ["keyword", "keyword.other.unit", "keyword.other", "keyword.other.directive"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#D8B4FE"
@@ -255,6 +258,7 @@
       "name": "Class",
       "scope": [
         "entity.name.type",
+        "entity.name.type.namespace.cs",
         "support.type",
         "support.class",
         "support.other.namespace.use.php",
