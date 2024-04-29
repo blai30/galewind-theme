@@ -54,6 +54,17 @@
     "titleBar.activeBackground": "#27272A",
     "titleBar.inactiveBackground": "#27272A",
 
+    "gitDecoration.addedResourceForeground": "#86EFAC",
+    "gitDecoration.modifiedResourceForeground": "#67E8F9",
+    "gitDecoration.deletedResourceForeground": "#6C6C6C",
+    "gitDecoration.untrackedResourceForeground": "#FCA5A5",
+    "gitDecoration.ignoredResourceForeground": "#BEF264",
+    "gitDecoration.conflictingResourceForeground": "#FDBA74",
+    "gitDecoration.renamedResourceForeground": "#67E8F9",
+    "gitDecoration.submoduleResourceForeground": "#67E8F9",
+    "gitDecoration.stageDeletedResourceForeground": "#6C6C6C",
+    "gitDecoration.stageModifiedResourceForeground": "#67E8F9",
+
     "editorBracketHighlight.foreground1": "#93C5FD",
     "editorBracketHighlight.foreground2": "#D8B4FE",
     "editorBracketHighlight.foreground3": "#FCA5A5",
