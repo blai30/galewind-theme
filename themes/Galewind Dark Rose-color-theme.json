@@ -222,8 +222,7 @@
       "name": "Other Variable, String Link",
       "scope": [
         "support.other.variable",
-        "string.other.link",
-        "variable.other.object"
+        "string.other.link"
       ],
       "settings": {
         "foreground": "#FDA4AF"
