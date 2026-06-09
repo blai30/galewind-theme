@@ -1,15 +1,10 @@
 {
   "name": "Galewind Dark Rose",
   "colors": {
-    "activityBar.activeBackground": "#18181B",
-    "activityBar.activeBorder": "#27272A",
-    "activityBar.activeFocusBorder": "#27272A",
-    "activityBar.background": "#27272a",
-    "activityBar.foreground": "#F4F4F5",
-    "activityBar.inactiveForeground": "#A1A1AA",
-    "activityBarBadge.background": "#BE123C",
-    "button.background": "#BE123C",
-    "dropdown.background": "#27272A",
+    // Base
+    "focusBorder": "#BE123C",
+
+    // Editor
     "editor.background": "#18181B",
     "editor.foreground": "#F4F4F5",
     "editor.lineHighlightBackground": "#27272A",
@@ -25,7 +20,38 @@
     "editorSuggestWidget.focusHighlightForeground": "#F4F4F5",
     "editorSuggestWidget.foreground": "#F4F4F5",
     "editorSuggestWidget.selectedBackground": "#9F1239",
-    "focusBorder": "#BE123C",
+
+    // Activity Bar
+    "activityBar.activeBackground": "#18181B",
+    "activityBar.activeBorder": "#27272A",
+    "activityBar.activeFocusBorder": "#27272A",
+    "activityBar.background": "#27272A",
+    "activityBar.foreground": "#F4F4F5",
+    "activityBar.inactiveForeground": "#A1A1AA",
+    "activityBarBadge.background": "#BE123C",
+
+    // Side Bar
+    "sideBar.background": "#18181B",
+    "sideBar.border": "#27272A",
+    "sideBar.dropBackground": "#FB718550",
+    "sideBarSectionHeader.background": "#18181B",
+    "sideBarSectionHeader.border": "#27272A",
+
+    // Tabs
+    "tab.activeModifiedBorder": "#FB7185",
+    "tab.border": "#18181B",
+    "tab.hoverBackground": "#3F3F46",
+    "tab.inactiveBackground": "#27272A",
+
+    // Title & Status Bar
+    "statusBar.background": "#27272A",
+    "statusBar.noFolderBackground": "#27272A",
+    "titleBar.activeBackground": "#27272A",
+    "titleBar.inactiveBackground": "#27272A",
+
+    // Inputs, Lists & Menus
+    "button.background": "#BE123C",
+    "dropdown.background": "#27272A",
     "input.background": "#27272A",
     "list.activeSelectionBackground": "#BE123C",
     "list.hoverBackground": "#3F3F46",
@@ -38,33 +64,24 @@
     "quickInputTitle.background": "#252528",
     "settings.focusedRowBackground": "#27272A",
     "settings.modifiedItemIndicator": "#F43F5E",
-    "sideBar.background": "#18181B",
-    "sideBar.border": "#27272A",
-    "sideBar.dropBackground": "#FB718550",
-    "sideBarSectionHeader.background": "#18181B",
-    "sideBarSectionHeader.border": "#27272A",
-    "statusBar.background": "#27272A",
-    "statusBar.noFolderBackground": "#27272A",
-    "tab.activeModifiedBorder": "#FB7185",
-    "tab.border": "#18181B",
-    "tab.hoverBackground": "#3F3F46",
-    "tab.inactiveBackground": "#27272A",
+
+    // Links
     "textLink.activeForeground": "#FDA4AF",
     "textLink.foreground": "#FB7185",
-    "titleBar.activeBackground": "#27272A",
-    "titleBar.inactiveBackground": "#27272A",
 
+    // Git Decoration
     "gitDecoration.addedResourceForeground": "#86EFAC",
-    "gitDecoration.modifiedResourceForeground": "#67E8F9",
-    "gitDecoration.deletedResourceForeground": "#6C6C6C",
-    "gitDecoration.untrackedResourceForeground": "#FCA5A5",
-    "gitDecoration.ignoredResourceForeground": "#BEF264",
     "gitDecoration.conflictingResourceForeground": "#FDBA74",
+    "gitDecoration.deletedResourceForeground": "#6C6C6C",
+    "gitDecoration.ignoredResourceForeground": "#BEF264",
+    "gitDecoration.modifiedResourceForeground": "#67E8F9",
     "gitDecoration.renamedResourceForeground": "#67E8F9",
-    "gitDecoration.submoduleResourceForeground": "#67E8F9",
     "gitDecoration.stageDeletedResourceForeground": "#6C6C6C",
     "gitDecoration.stageModifiedResourceForeground": "#67E8F9",
+    "gitDecoration.submoduleResourceForeground": "#67E8F9",
+    "gitDecoration.untrackedResourceForeground": "#FCA5A5",
 
+    // Bracket Pair Colorization
     "editorBracketHighlight.foreground1": "#93C5FD",
     "editorBracketHighlight.foreground2": "#D8B4FE",
     "editorBracketHighlight.foreground3": "#FCA5A5",
@@ -75,7 +92,10 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#737373"
@@ -105,7 +125,10 @@
     },
     {
       "name": "Invalid",
-      "scope": ["invalid", "invalid.illegal"],
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
       "settings": {
         "foreground": "#FF5370"
       }
@@ -120,7 +143,10 @@
     },
     {
       "name": "Operator, Misc",
-      "scope": ["constant.other.color", "meta.tag"],
+      "scope": [
+        "constant.other.color",
+        "meta.tag"
+      ],
       "settings": {
         "foreground": "#F3F4F6"
       }
@@ -139,7 +165,7 @@
         "storage.modifier",
         "storage.modifier.public.cs",
         "storage.modifier.private.cs",
-        "storage.type.function.arrow",
+        "storage.type.function.arrow"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -148,7 +174,10 @@
     },
     {
       "name": "Type",
-      "scope": ["keyword.type", "storage.type"],
+      "scope": [
+        "keyword.type",
+        "storage.type"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#67E8F9"
@@ -243,7 +272,10 @@
     },
     {
       "name": "Function Argument",
-      "scope": ["variable.parameter", "entity.name.variable.parameter"],
+      "scope": [
+        "variable.parameter",
+        "entity.name.variable.parameter"
+      ],
       "settings": {
         "foreground": "#FDBA74"
       }
@@ -433,7 +465,11 @@
     },
     {
       "name": "URL",
-      "scope": ["*url*", "*link*", "*uri*"],
+      "scope": [
+        "*url*",
+        "*link*",
+        "*uri*"
+      ],
       "settings": {
         "fontStyle": "underline"
       }
@@ -451,9 +487,7 @@
     },
     {
       "name": "ES7 Bind Operator",
-      "scope": [
-        "source.js constant.other.object.key.js string.unquoted.label.js"
-      ],
+      "scope": ["source.js constant.other.object.key.js string.unquoted.label.js"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FF5370"
@@ -461,9 +495,7 @@
     },
     {
       "name": "JSON Key",
-      "scope": [
-        "source.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
+      "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
       "settings": {
         "fontStyle": "",
         "foreground": "#F4F4F5"
@@ -488,9 +520,7 @@
     },
     {
       "name": "Markdown - Markup Raw Inline Punctuation",
-      "scope": [
-        "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
-      ],
+      "scope": ["text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"],
       "settings": {
         "foreground": "#65737E"
       }
@@ -517,7 +547,10 @@
     },
     {
       "name": "Markup - Bold",
-      "scope": ["markup.bold", "markup.bold string"],
+      "scope": [
+        "markup.bold",
+        "markup.bold string"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#F07178"
