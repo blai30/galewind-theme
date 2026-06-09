@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Galewind Sample</title>
+    <style>
+      :root {
+        --accent: #38bdf8;
+      }
+      body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header" data-theme="galewind">
+      <h1 id="title">Galewind&nbsp;Theme</h1>
+      <nav aria-label="Primary">
+        <a href="#features" class="nav-link" rel="noopener">Features</a>
+        <a href="https://example.com" target="_blank">Docs</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="features">
+        <!-- Feature list rendered from data attributes -->
+        <ul>
+          <li data-count="4">Four curated variants</li>
+          <li data-count="61">Sixty-one token rules</li>
+        </ul>
+        <button type="button" onclick="console.log('clicked')" disabled>
+          Activate
+        </button>
+      </section>
+    </main>
+
+    <script type="module">
+      const title = document.querySelector("#title");
+      title?.addEventListener("pointerenter", () => {
+        title.style.color = "var(--accent)";
+      });
+    </script>
+  </body>
+</html>

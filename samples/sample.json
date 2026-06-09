@@ -1,0 +1,23 @@
+{
+  "name": "galewind-sample",
+  "version": "1.2.0",
+  "private": true,
+  "enabled": true,
+  "retries": 3,
+  "timeout": 3000,
+  "ratio": 0.75,
+  "tags": ["dark", "tailwind", "oled"],
+  "theme": {
+    "variants": ["Dark Rose", "Dark Sky", "Black Rose", "Black Sky"],
+    "accent": "#38BDF8",
+    "neutral": null
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "matrix": [
+    { "os": "linux", "node": 20 },
+    { "os": "darwin", "node": 22 }
+  ]
+}

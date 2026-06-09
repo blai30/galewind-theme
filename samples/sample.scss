@@ -1,0 +1,50 @@
+// SCSS sample for syntax highlighting
+@use "sass:math";
+
+$breakpoint-md: 768px;
+$accent: #38bdf8;
+$radius: 0.5rem;
+
+$shades: (
+  "surface": #18181b,
+  "raised": #27272a,
+  "muted": #71717a,
+);
+
+@mixin elevated($level: 1) {
+  box-shadow: 0 #{$level * 2}px #{$level * 6}px rgba(0, 0, 0, 0.4);
+}
+
+%card-base {
+  border-radius: $radius;
+  padding: 1rem 1.25rem;
+}
+
+.card {
+  @extend %card-base;
+  @include elevated(2);
+  background: map-get($shades, "raised");
+  color: #f4f4f5;
+
+  &__title {
+    margin: 0;
+    font-size: math.div(20, 16) * 1rem;
+    color: $accent;
+  }
+
+  &:hover {
+    background: lighten(map-get($shades, "raised"), 4%);
+  }
+
+  &.is-active::before {
+    content: "*";
+    color: $accent;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+}
